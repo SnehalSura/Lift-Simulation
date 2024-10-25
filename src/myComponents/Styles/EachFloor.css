@@ -1,0 +1,83 @@
+.each-floor{
+    height: 150px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    border: 0.2px solid rgb(140, 140, 140);
+}
+
+.text{
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.black-strip{
+    width: 1.8rem;
+    height: 100%;
+    background-color: black;
+    color: rgba(255, 255, 255,0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: end;
+
+}
+
+.black-strip i{
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.black-strip i:hover{
+    color: #ddd;
+}
+
+.black-strip span{
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.elevator{
+    background-color: rgb(25, 25, 248);
+}
+.empty{                     /* It is always there */
+    background-color: transparent;
+    width: 2.6rem;
+    height: 100%;
+    display: flex;
+}
+.lift-buttons{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.hidden{
+    display: none;
+}
+
+.each-floor .lift-buttons span{
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+    color: black;
+    display: flex;
+}
+
+.each-floor .lift-buttons span:hover {
+    color: #ddd;
+}
+.each-floor .lift-buttons span:active {
+    color: black;
+}
+
+.modifyWidth{
+    width: 40%;
+}

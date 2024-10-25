@@ -1,0 +1,99 @@
+.BuildingFloor{
+    width : 150px;
+    height: 150px;
+    border: 1px solid transparent;
+    background-image: url("./assets/building-image3.jpg");
+    background-position: center;
+}
+
+.Building{
+    display: flex;
+    margin: 2rem 0 1rem 4rem;
+}
+
+.building-title, .LiftNumber{
+    height: 30px;
+    width: 121px;
+    margin: 0;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.building-title{
+    width: 152px;
+}
+
+.LiftNumber{
+    border-bottom: 0;
+}
+.allLifts{
+    display: flex;
+}
+
+.Lift{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 120px;
+}
+ 
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.Building-no{
+    margin-bottom: 5rem;
+    width: 400px;
+    justify-content: end;
+}
+
+.each-floor{
+    height: 150px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+/* Button Styling  */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buttonStyle{
+    background-color: green;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    outline: none;
+    margin-bottom: 0.3rem;
+    transition: background-color 0.3s;
+}
+
+.buttonStyle:hover{
+    background-color: #000;
+}
+
+.red{
+    background-color: red;
+}
+
+/* For Toggle Switch */
+
+.ToggleSwitch{
+    font-size: 1.6rem;
+}
+
