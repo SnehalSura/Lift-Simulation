@@ -4,7 +4,7 @@ import { addLiftRequest } from "./helper";
 
 function Lift({ floorsCount, liftNum }) {
   const [liftPosition, setLiftPosition] = useState(1);       // default position of any lift
-  const [liftState, setLiftState] = useState(true);
+  const [liftState, setLiftState] = useState(true);          // whether it is active or not
 
   // console.log("Lift Position in the Component: ", liftPosition);
 
@@ -27,9 +27,9 @@ function Lift({ floorsCount, liftNum }) {
           <EachFloor
             key={indx}
             setLiftPosition={setLiftPosition}
-            FloorNum={FloorNum}
-            liftNum={liftNum}
-            myClass={FloorNum === liftPosition ? true : false}
+            FloorNum= {FloorNum}
+            liftNum= {liftNum}
+            myClass= {FloorNum === liftPosition ? true : false}
             liftPosition={liftPosition}
             floorsCount={floorsCount}
             liftState = {liftState}

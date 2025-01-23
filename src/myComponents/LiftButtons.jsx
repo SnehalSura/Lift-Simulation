@@ -12,7 +12,7 @@ function LiftButtons({ handleButtonRequest, floorsCount }) {
         <span                   // liftBtn : number icon
           key={floor}
           className="material-symbols-outlined"
-          data-floor={floor}
+          // data-floor={floor}
           onClick={() => handleButtonRequest(floor)}
         >
           {`counter_${floor}`}

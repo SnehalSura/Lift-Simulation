@@ -7,7 +7,7 @@ function EachFloor({
   FloorNum,
   setLiftPosition,
   liftNum,
-  myClass,
+  myClass,    // tells us whether it is a lift floor or Not
   liftPosition,
   floorsCount,
   liftState
