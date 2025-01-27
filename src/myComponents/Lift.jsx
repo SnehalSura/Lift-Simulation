@@ -24,7 +24,7 @@ function Lift({ floorsCount, liftNum }) {
         {floorsCount.map((FloorNum, indx) => (
           //   <Floor key={indx} />   : Main to deal with it later
 
-          <EachFloor
+          <EachFloor      // Eachfloor is responsible for displaying each lift floor   
             key={indx}
             setLiftPosition={setLiftPosition}
             FloorNum= {FloorNum}

@@ -7,7 +7,7 @@ import Button from "./myComponents/Button.jsx";
 
 function App() {
   const buildingCount = 2;
-  const floorsCount = 6;
+  const floorsCount = 5;
   const liftsCount = 4;
 
   const Number_Of_Buildings = Array.from(

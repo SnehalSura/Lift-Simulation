@@ -38,7 +38,7 @@ function EachFloor({
 
   return (
     <div className={myClass ? "each-floor elevator" : "each-floor"}>
-      {!(!liftState && liftPosition === 1 && FloorNum === 1) && (
+      {!(!liftState && liftPosition === 1 && FloorNum === 1) && (     //means , if the lift is deact. & it's on first floor
         <div className="empty">
           <div className={`lift-buttons ${!myClass && "hidden"}`}>
             <LiftButtons
@@ -67,7 +67,7 @@ function EachFloor({
       <div
         className={`black-strip ${(!liftState && liftPosition === 1 && FloorNum === 1) && "modifyWidth"}`}
         data-floor={FloorNum}
-        onClick={checkFloorRequest}
+        onClick={checkFloorRequest} 
       >
         
         {FloorNum === floorsCount[0] ? (
