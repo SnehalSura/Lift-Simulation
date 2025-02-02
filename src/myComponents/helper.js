@@ -18,7 +18,7 @@ export async function handleLiftRequests(liftNum) {
   liftProcessingStates[liftNum] = true;
 
   while (queue.length > 0) {
-    const [floorNum, , setLiftPosition] = queue.shift(); // Extract the target floor number and the setLiftPosition function
+    const [floorNum, setLiftPosition] = queue.shift(); // Extract the target floor number and the setLiftPosition function
 
     // Get the current position of the lift
     let currentPosition = liftCurrentPositions[liftNum];
