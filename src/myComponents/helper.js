@@ -53,7 +53,7 @@ export function addLiftRequest(
     liftCurrentPositions[liftNum] = liftPosition; // Set the initial position
   }
 
-  liftRequestQueues[liftNum].push([floorNum, liftPosition, setLiftPosition]);
+  liftRequestQueues[liftNum].push([floorNum, setLiftPosition]);
   console.log(`Added floor request for Lift ${liftNum}:`, floorNum);
 
   // Automatically start processing if not already processing
