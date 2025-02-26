@@ -8,7 +8,7 @@ const moveLift = async (currentPosition, targetPosition, setLiftPosition) => {
     setLiftPosition(i);
     await new Promise((resolve) => setTimeout(resolve, 1000));    // Simulate lift movement delay
   }
-  setLiftPosition(targetPosition);             // Ensure the lift reaches the target floor
+  setLiftPosition(targetPosition);             // To move the lift to the target floor
 };
 
 export async function handleLiftRequests(liftNum) {

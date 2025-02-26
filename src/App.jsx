@@ -6,7 +6,7 @@ import Building from "./myComponents/Building.jsx";
 import Button from "./myComponents/Button.jsx";
 
 function App() {
-  const buildingCount = 2;
+  const buildingCount = 3;
   const floorsCount = 5;
   const liftsCount = 4;
 
@@ -30,6 +30,7 @@ function App() {
       }
 
     </>
+
   );
 }
 
