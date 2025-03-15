@@ -50,7 +50,7 @@ export function addLiftRequest(
 ) {
   if (!liftRequestQueues[liftNum]) {        // becomes True, if there is absense of that particular liftNum in the object
     liftRequestQueues[liftNum] = [];
-    liftCurrentPositions[liftNum] = liftPosition; // Set the initial position
+    liftCurrentPositions[liftNum] = liftPosition;        // Set the initial position
   }
 
   liftRequestQueues[liftNum].push([floorNum, setLiftPosition]);

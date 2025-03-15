@@ -25,7 +25,7 @@ function Building({ buildingNum, floorsCount, liftsCount }) {
             <Lift
               key={indx}
               floorsCount={Number_of_floors}
-              liftNum={value}
+              liftNum={value}   
             />
           ))}
         </div>

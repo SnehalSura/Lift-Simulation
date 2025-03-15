@@ -23,9 +23,8 @@ function Lift({ floorsCount, liftNum }) {
       <div className="Lift">
         {
           floorsCount.map((FloorNum, indx) => (
-          //   <Floor key={indx} />   : Main to deal with it later
-
-          <EachFloor      // Eachfloor is responsible for displaying each lift floor   
+        
+          <EachFloor      // Eachfloor is responsible for displaying each floor for the lift 
             key={indx}
             setLiftPosition={setLiftPosition}
             FloorNum= {FloorNum}
