@@ -21,13 +21,15 @@ function Building({ buildingNum, floorsCount, liftsCount }) {
         </div>
 
         <div className="allLifts">
-          {Number_Of_Lifts.map((value, indx) => (
+          {
+          Number_Of_Lifts.map((value, indx) => (
             <Lift
               key={indx}
               floorsCount={Number_of_floors}
               liftNum={value}   
             />
-          ))}
+          ))
+          }
         </div>
       </div>
       

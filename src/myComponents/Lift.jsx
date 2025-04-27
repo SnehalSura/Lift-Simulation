@@ -27,11 +27,11 @@ function Lift({ floorsCount, liftNum }) {
           <EachFloor      // Eachfloor is responsible for displaying each floor for the lift 
             key={indx}
             setLiftPosition={setLiftPosition}
-            FloorNum= {FloorNum}
-            liftNum= {liftNum}
-            myClass= {FloorNum === liftPosition ? true : false}
-            liftPosition={liftPosition}
-            floorsCount={floorsCount}
+            FloorNum = {FloorNum}
+            liftNum = {liftNum}
+            myClass = {FloorNum === liftPosition ? true : false}
+            liftPosition = {liftPosition}
+            floorsCount = {floorsCount}
             liftState = {liftState}
           />
 
